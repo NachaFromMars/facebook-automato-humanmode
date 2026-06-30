@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "defaults": {
+    "posts_per_category": 6,
+    "comments_per_post": 6,
+    "humanmode_required_for_write_actions": true,
+    "verify_publish_after_post": true
+  },
+  "safety": {
+    "never_print_cookie_values": true,
+    "never_login_with_password_from_vps": true,
+    "write_actions_require_explicit_user_intent": true
+  }
+}
