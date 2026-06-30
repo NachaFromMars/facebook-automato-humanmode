@@ -19,3 +19,8 @@ __pycache__/
 *.pyc
 node_modules/
 .DS_Store
+agent-harness/.venv/
+agent-harness/*.egg-info/
+agent-harness/.pytest_cache/
+agent-harness/**/__pycache__/
+assets/post-images/
