@@ -1,0 +1,12 @@
+setup.py
+cli_anything/facebook_automato/__init__.py
+cli_anything/facebook_automato/__main__.py
+cli_anything/facebook_automato/facebook_automato_cli.py
+cli_anything/facebook_automato/tests/test_core.py
+cli_anything/facebook_automato/utils/cdp.py
+cli_anything_facebook_automato.egg-info/PKG-INFO
+cli_anything_facebook_automato.egg-info/SOURCES.txt
+cli_anything_facebook_automato.egg-info/dependency_links.txt
+cli_anything_facebook_automato.egg-info/entry_points.txt
+cli_anything_facebook_automato.egg-info/requires.txt
+cli_anything_facebook_automato.egg-info/top_level.txt
