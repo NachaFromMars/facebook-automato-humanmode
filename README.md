@@ -49,3 +49,22 @@ A successful cookie extraction should detect:
 ## License
 
 MIT for wrapper/docs in this repo. Facebook and upstream OpenClaw/HumanMode code remain under their own terms.
+
+
+## V1 CLI Harness
+
+The repo now includes an agent-native CLI harness under `agent-harness/`.
+
+Defaults are stored in `config.json`; `posts_per_category` is set to **6**.
+
+```bash
+cd agent-harness
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -e . pytest
+fbcli tabs --json
+fbcli page-posts 'https://www.facebook.com/' --json
+fbcli category-batch '<category-url-1>' '<category-url-2>' --json
+```
+
+Write actions are wired through Facebook HumanMode only (`fbcli humanmode-post`) and require publish verification screenshots/logs.
