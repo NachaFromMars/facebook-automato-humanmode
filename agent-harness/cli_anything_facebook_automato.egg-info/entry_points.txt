@@ -1,0 +1,3 @@
+[console_scripts]
+cli-anything-facebook-automato = cli_anything.facebook_automato.facebook_automato_cli:cli
+fbcli = cli_anything.facebook_automato.facebook_automato_cli:cli
